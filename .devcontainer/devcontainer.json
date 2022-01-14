@@ -1,0 +1,30 @@
+{
+  "name": "Node16 on VSCode",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "nodejs",
+  // workspaceを明示的に指定
+  "workspaceFolder": "/home/vscode/develop",
+  // remotecontainer内でのextension
+  "extensions": [
+    "vscodevim.vim",
+    "mhutchie.git-graph",
+    "vector-of-bool.gitflow",
+    "pkief.material-icon-theme",
+    "oderwat.indent-rainbow",
+    "streetsidesoftware.code-spell-checker",
+    "tabnine.tabnine-vscode",
+    "ms-vscode.live-server",
+    "ms-vsliveshare.vsliveshare",
+    "EditorConfig.EditorConfig",
+    "rangav.vscode-thunder-client",
+    // 以下node用
+    "ms-vscode.vscode-typescript-next",
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "ionutvmi.path-autocomplete",
+    "christian-kohler.path-intellisense",
+  ],
+  "remoteUser": "vscode"
+}
